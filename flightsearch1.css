@@ -1,28 +1,51 @@
-.carousel-inner{
-position: relative;
-}
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 900px;
-  height: 500px;
-}
 body
 {
-background-image:url("D:\pic2.jpg");	
+background-image:url("file:///D:/HTML/Images/airpic.jpg");	
 background-size:cover;
-background-repeat:no repeat;
-}
-label {
-    width:180px;
-    clear:center;
-    text-align:center;
-    padding-right:10px;
+background-repeat:no-repeat;
+
 }
 
-input, label, button {
-    float:center;
+.container{
+	
+color: black;
+text-align:center;
+}
+.text
+{
+width:30%;
+padding:7px 10px;
+margin:10px 0 0 35px;
+display:inline-block;
+border:1px solid #ccc;
+border radius:3px;
+box-sizing:border box;	
+
+}
+input[type=submit]
+{
+width:60%;
+padding:3px 5px;
+margin:2px 0;
+display:inline-block;
+border:1px solid #ccc;
+border radius:7px;
+box-sizing:border box;	
+}
+#submitbtn
+{
+width:50%;
+text-weight:bold;
+}
+
+
+input[type=date]{
+	width:30%;
+padding:7px 10px;
+margin:10px 0 0 35px;
+display:inline-block;
+border:1px solid #ccc;
+border radius:3px;
+box-sizing:border box;	
+	
 }
